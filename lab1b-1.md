@@ -11,6 +11,12 @@ Lab Activities
 •	- Determine IP using `ip a` and visit peer web page in browser.
 # <img width="900" height="378" alt="image" src="https://github.com/user-attachments/assets/d8c5653d-fbaa-41c2-a448-48cfc1044fc8" />
 
+•	- Enable UFW with `sudo ufw enable`, allow port 80, and observe service access
+# <img width="1146" height="79" alt="Screenshot 2026-01-09 205130" src="https://github.com/user-attachments/assets/1d33b55d-23c3-4907-88df-622f05092b0f" />
+# <img width="1250" height="194" alt="Screenshot 2026-01-09 205209" src="https://github.com/user-attachments/assets/999b0f46-094b-4506-8663-6443effed8fb" />
+# <img width="1221" height="118" alt="Screenshot 2026-01-09 205657" src="https://github.com/user-attachments/assets/ee21f305-358e-4f66-993c-580c589da2d4" />
+
+
 # Reflection Questions
 •	- What’s the role of a firewall in managing services?
 
