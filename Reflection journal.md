@@ -20,16 +20,22 @@ Throughout this learning process, I was introduced to key concepts such as versi
 Overall, this series of labs has helped me bridge the gap between theoretical knowledge and practical application. The experience not only improved my technical skills but also strengthened my problem-solving abilities and confidence in handling real-world IT tasks. This reflection journal aims to highlight what I learned, the challenges I encountered, and how these experiences have prepared me for future projects and potential careers in system administration, cloud computing, or DevOps-related roles.
 # 2.	Linux Environment Setup and GitHub Integration
 Through these labs, I learned how to set up a Linux Ubuntu environment from scratch. The process helped me better understand how an operating system supports software development tasks and how different system components work together as this is my first time configuring a Linux system in a structured way. By practicing the use of the terminal, I became more comfortable executing commands, and I learned how to update the system, install software packages, and navigate the Linux file system. This experience showed me how Linux offers flexibility, efficiency, and greater control for programming and development tasks. It also improved my confidence in managing system settings, installing software, and troubleshooting issues, which are important skills for real-world IT and software development environments.
-GitHub Usage
+
+# GitHub Usage
+
 I used GitHub to store and document all my lab practices throughout this module, uploading every lab I completed along with screenshots as evidence of my work. This approach helped me keep track of what I have done and when each task was completed, as GitHub automatically records all changes with clear dates and timestamps. By reviewing the commit history, I could easily monitor my progress and see how my skills developed over time. Using GitHub also allowed me to organize my work in a clear and structured manner, making it easier to revisit past labs and understand the steps I took to complete them. Overall, GitHub has been a significant help in tracking, managing, and organizing my work throughout my learning process, while also reinforcing the importance of proper documentation and version control in IT practices.
 
 # 3. Linux Services, Permissions, and Bash Scripting
 Service Configuration and User Permissions
 During the labs, I installed and configured Linux services such as NGINX and SSH. Setting up NGINX helped me understand how a web server works, including how configuration files control how the server responds to requests. Configuring SSH showed me the importance of secure remote access and proper authentication.
+
 I also learned how to manage users and permissions using commands such as chmod, chown, and usermod. Before these labs, I did not fully understand how Linux permissions worked, but hands-on practice made it much clearer. One important lesson I learned was the principle of least privilege, which ensures that users and services only have the access they need. This helped me understand how incorrect permissions can lead to serious security risks.
+# <img width="2839" height="687" alt="image" src="https://github.com/user-attachments/assets/1d615489-2c0c-461a-9a53-ca3388c651fe" />
+
 
 # Scripting and Automation
 One of the most challenging but rewarding parts of the labs was writing Bash scripts. I created scripts to automate tasks such as backing up log files. The goal was to reduce manual work and make system maintenance more efficient.
+
 I also learnt to set up cron jobs to run these scripts automatically at scheduled times. At first, my scripts did not run as expected, and debugging the issues taught me the importance of using correct file paths, permissions, and logging. Through trial and error, I have learnt how to utilize scripts and learned how automation can save time and reduce human error in real-world environments.
 
 # 4. Cloud Infrastructure and TCO Analysis
@@ -40,13 +46,18 @@ This experience showed me that while cloud platforms make it easy to deploy serv
 # Cost Analysis
 I also conducted a Total Cost of Ownership (TCO) analysis to compare different cloud providers between AWS(EC2) and Azure. This task helped me understand that cost decisions in IT are not just about the cheapest option. I had to consider factors such as scalability, flexibility, and long-term costs.
 Based on the TCO comparison that I have conducted, AWS appears to be more cost-effective for small-scale or learning-based deployments due to its flexible pricing and wide range of instance types. Azure, while slightly more expensive for similar configurations, offers strong integration with Microsoft services and may be more suitable for enterprise environments. The final platform choice depends not only on cost but also on scalability, ease of management, and organizational requirements.
+# <img width="1533" height="899" alt="image" src="https://github.com/user-attachments/assets/931f68df-54ad-43f2-b0bd-f5e558d4da84" />
+
 # 5. DNS Setup and SSL Configuration
 # DNS Management
 I configured DNS records for my domain, including setting up A records to point to my server’s IP address. To verify that the DNS settings were working correctly, I used tools such as dig and nslookup. This helped me understand how DNS propagation works and why changes are not always immediate.
 This lab taught me that even small configuration mistakes in DNS can cause services to become unavailable.
 SSL Certificate with Let’s Encrypt
+# <img width="975" height="340" alt="image" src="https://github.com/user-attachments/assets/8a59e787-1e86-4839-b86c-99373f9e399b" />
+
 I used Certbot to install an SSL certificate and configure HTTPS on my server. Initially, I faced issues with certificate validation, which turned out to be caused by firewall and security group settings. After fixing these issues, I successfully enabled HTTPS and set up automatic certificate renewal.
 This experience showed me how important encrypted traffic is for protecting user data and maintaining trust. It also helped me understand why HTTPS is a standard requirement for modern web services.
+# <img width="975" height="174" alt="image" src="https://github.com/user-attachments/assets/dd69ef6f-8f9c-4870-b873-a94a2f456731" />
 
 # 6. Automation and Cron Jobs
 Throughout the labs, I attempted to use cron jobs to automate tasks such as backups and maintenance. Over time, I slowly get a better understanding by adding error handling and logs so that problems could be detected more easily.
@@ -61,6 +72,7 @@ Optional Lab (Your Chosen Service)
 For the optional lab, I chose to deploy an additional service such as Docker. Setting up this service independently required me to read documentation and troubleshoot issues without detailed instructions. Although it was challenging, it helped me become more confident in learning new technologies on my own.
 
 This experience showed me that self-learning and adaptability are important skills in the IT industry. To keep up with the industry’s demands we must keep on learning and improving ourselves. The reason why I chose docker is because docker is an open-source platform that allows developers and systems administrators to package applications into containers. Those containers can then be pushed onto a deployment platform, such as on-premises servers or servers in the cloud, and then executed directly 
+# <img width="1603" height="818" alt="Screenshot 2026-01-15 230839" src="https://github.com/user-attachments/assets/a7fc0aff-c738-4cc1-960a-cc8c9f423e0f" />
 # 8. Problems Encountered and Solutions
 Problem	How I Solved It
 SSL certificate validation failed	Opened firewall and cloud security group ports
@@ -84,12 +96,18 @@ If I were to work on future server projects, I would place greater emphasis on p
 
 # 12. Appendix (Add as needed)
 •	Bash scripts
+# <img width="1379" height="1070" alt="Screenshot 2026-01-10 162005" src="https://github.com/user-attachments/assets/ccf08e85-926e-482d-90e1-695eced0c22c" />
+# <img width="1391" height="953" alt="Screenshot 2026-01-10 150100" src="https://github.com/user-attachments/assets/0b530345-60d2-4ff4-ab5b-07b3986abe67" />
 
 •	Cron entries
  # <img width="975" height="433" alt="image" src="https://github.com/user-attachments/assets/15933ebe-e71a-47f1-9233-126f6d27a152" />
 
 •	Screenshots
 
+
+
 •	NGINX or service config files
 
 •	GitHub repo file structure
+# <img width="2773" height="1387" alt="image" src="https://github.com/user-attachments/assets/1c0517a9-47da-49d6-9df4-d4b5fe9212fb" />
+
